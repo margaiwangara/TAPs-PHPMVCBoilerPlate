@@ -2,9 +2,13 @@
 
 class Home extends Controller
 {
-  public function Index()
+  public function Index($name = '')
   {
-    echo 'home/index';
+    $db = $this->model('User');
+
+    echo $db->name = 'Margai';
+
+
   }
 
   public function test()
