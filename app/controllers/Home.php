@@ -6,7 +6,9 @@ class Home extends Controller
   {
     $db = $this->model('User');
 
-    echo $db->name = 'Margai';
+    $name = "Luke";
+
+    return $this->view('home/sample', ['name' => $name]);
 
 
   }
