@@ -11,4 +11,9 @@ class Contact extends Controller
   {
     echo $phoneNumber;
   }
+
+  public function Fax($faxNumber = '')
+  {
+    echo $faxNumber;
+  }
 }
